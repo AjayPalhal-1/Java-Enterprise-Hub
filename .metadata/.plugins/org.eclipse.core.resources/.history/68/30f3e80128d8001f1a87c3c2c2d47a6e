@@ -1,0 +1,5 @@
+package com.kabira.jdbc;
+
+public class ConnectionManager {
+
+}

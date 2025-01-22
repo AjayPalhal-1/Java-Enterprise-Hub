@@ -1,0 +1,10 @@
+package com.kabira.webp;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/cardverify")
+public class CreditCardCheck {
+	
+	
+
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .lable
+        {
+            align-items: center;
+            background-color: antiquewhite;
+            gap: 1;
+        }
+        #div1
+        {
+            margin: 5rem;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+         
+    <form action="cardverify" method = "get"> // we are using URL so here not using "/" 
+
+        <label for="" class="lable"> Card holder Name </label>
+        <input type="text"  name = "CardHolderName"> <br>
+
+        <label for=""class="lable"> Card Number</label> 
+        <input type="number" name = "CardNum" >  <br>
+        <label for="" class="lable"> ExpairyD ate</label>  
+        <input type="text"  name = "ExparyDate "> <br>
+        <label for="" class="lable"> Enter Pin</label>
+        <input type="number"name = "Pin "  > <br>
+        <button> Submit</button>
+    </form>
+
+    </div>
+
+   
+</body>
+</html>

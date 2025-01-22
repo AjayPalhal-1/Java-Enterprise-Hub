@@ -1,0 +1,10 @@
+package com.kabira.webp;
+
+import javax.servlet.annotation.WebServlet;
+
+@WebServlet("/cardverify") // URL pattern of class .. where we defining URL it should always start with /
+public class CreditCardCheck {
+	
+	
+
+}

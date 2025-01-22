@@ -1,0 +1,18 @@
+package com.kabira.jdbc;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+
+public class ConnectionManager {
+	
+	public static void main(String[] args) {
+		
+		Class.forName("com.mysql.cj.jdbc.Driver");
+		System.out.println("Driver Loded");
+		
+		Connection con = DriverManager.
+		
+	}
+	
+
+}

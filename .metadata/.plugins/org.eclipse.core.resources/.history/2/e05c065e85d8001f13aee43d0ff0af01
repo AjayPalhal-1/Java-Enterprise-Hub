@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .lable
+        {
+            align-items: center;
+            background-color: antiquewhite;
+            gap: 1;
+        }
+        #div1
+        {
+            margin: 5rem;
+            align-items: center;
+            justify-content: center;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id="div1">
+         
+    <form action="">
+
+        <label for="" class="lable"> Card holder Name </label>
+        <input type="text" > <br>
+
+        <label for=""class="lable"> Card Number</label> 
+        <input type="number" >  <br>
+        <label for="" class="lable"> Expairy Date</label>  
+        <input type="text" > <br>
+        <label for="" class="lable"> Enter Pin</label>
+        <input type="number" > <br>
+        <button> Submit</button>
+    </form>
+
+    </div>
+
+   
+</body>
+</html>
