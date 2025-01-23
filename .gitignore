@@ -1,5 +1,10 @@
 /Server
-.metadata
+*.metadata
 /build
 /.settings
-.classpath
+*.classpath
+*.project
+*.settings
+
+/META-INF
+/WEB-INF/lib
