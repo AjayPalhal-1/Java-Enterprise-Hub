@@ -8,3 +8,12 @@
 
 /META-INF
 /WEB-INF/lib
+
+Server
+*.metadata
+build
+.settings
+*.classpath
+*.project
+META-INF
+WEB-INF/lib
