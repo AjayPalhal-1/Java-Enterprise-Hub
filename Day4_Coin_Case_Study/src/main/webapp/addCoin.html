@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coin Collection Form</title>
+    <style>
+      /* General body styling */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #f9f9f9;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* Form container */
+      form {
+        background-color: #ffffff;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 300px;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333333;
+        margin-bottom: 20px;
+      }
+
+      label {
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555555;
+      }
+
+      input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #cccccc;
+        border-radius: 5px;
+        font-size: 14px;
+      }
+
+      input[type="text"]:focus {
+        border-color: #0078d4;
+        outline: none;
+        box-shadow: 0 0 5px rgba(0, 120, 212, 0.5);
+      }
+
+      #buttondiv {
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      button {
+        padding: 10px 15px;
+        font-size: 14px;
+        color: white;
+        background-color: #0078d4;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #005bb5;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="addCoins">
+      <h2>Adding Coins</h2>
+
+      <label for="">Country</label>
+      <input type="text"  name = "countryname" placeholder="Enter country" />
+
+      <label for="">Denomination</label>
+      <input type="text"  name = "denomination" placeholder="Enter denomination" />
+
+      <label for="">Year of minting</label>
+      <input type="text" name = "yearOfMiniting" placeholder="Enter year" />
+
+      <label for="">Current value</label>
+      <input type="text" name = "currentvalue" placeholder="Enter value" />
+
+      <label for="">Acquired date</label>
+      <input type="date" name = "Acquiredate"  placeholder="Enter date" />
+
+      <div id="buttondiv">
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
