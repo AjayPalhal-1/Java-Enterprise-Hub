@@ -17,3 +17,6 @@ build
 *.project
 META-INF
 WEB-INF/lib
+
+/.settings
+/build
