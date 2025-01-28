@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E Com Site </title>
+    <style>
+      /* General body styling */
+      body {
+        font-family: Arial, sans-serif;
+        background-color: #71abe2;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+      }
+
+      /* Form container */
+      form {
+        background-color: #ffffff;
+        padding: 20px 30px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        width: 300px;
+      }
+
+      h2 {
+        text-align: center;
+        color: #333333;
+        margin-bottom: 20px;
+      }
+
+      label {
+        flex-direction: column;
+        display: block;
+        margin-bottom: 5px;
+        font-weight: bold;
+        color: #555555;
+      }
+
+      #buttondiv {
+        text-align: center;
+        margin-top: 15px;
+      }
+
+      #Maindiv {
+        flex-direction: column;
+      }
+
+      button {
+        padding: 10px 15px;
+        font-size: 14px;
+        color: white;
+        background-color: #0078d4;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+
+      button:hover {
+        background-color: #005bb5;
+      }
+    </style>
+  </head>
+  <body>
+    <h1></h1>
+    <form action="product"  method="post">
+    <!-- <h2>Diwali Offer Buy 1 Get All Free !!!!!</h2> -->
+        
+      <div id="Maindiv">
+        <h2>Product Details</h2>
+        <img  src="./Snapchat-1768225783.jpg " width="300" height="500" alt="">
+
+        <label for="">Product Name : Mobile</label> 
+        <input type="text" value="Mobile" name="productName" hidden>
+        
+
+
+        <label for=""  >Product Price : 1000  </label>
+                <input type="number"  value = "1000" name="productprice" hidden >
+        
+   
+
+        <label for="">Product Qunatity :  </label>
+        <input type="number"   name="qnty" >
+
+        <input type="text"  value = "120 "name="productId" hidden >
+
+             
+            <!-- <input type="hidden" name="" id=""> -->
+
+
+        
+            <button type="submit" value="1"  name="addtocart">Add To Cart</button>
+                    
+            
+            
+            <button type="submit" value="0" name="addtocart">CheckOut</button>
+              
+            
+          </div>
+<!-- 
+        <br><br><br>
+
+        <label for="">Product Name : TV</label>
+
+        <label for="">Product ID : 102 </label>
+
+        <label for="">Product Price : 10000 </label>
+<!--  -->
+        <!-- <div id="buttondiv2">
+            <button type="submit">Add To Cart</button>
+          </div> -->
+
+        <!-- <br><br><br>
+
+        <label for="">Product Name : Mobile</label>
+
+        <label for="">Product ID : 103 </label>
+
+        <label for="">Product Price : 20000 </label>
+      </div> --> 
+<!-- 
+      <div id="buttondiv3">
+        <button type="submit">Add To Cart</button> -->
+
+      </div>
+    </form>
+  </body>
+</html>
