@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+	"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+	"http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.cj.jdbc.Driver</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/userdata</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.connection.password">beliver012</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQL8Dialect</property> <!-- To  tell Hibernate that i am using mysql  so write query wisely   -->
+        <property name="hibernate.hbm2ddl.auto">update</property> <!-- For Telling hibernate to create  new table   -->
+        <mapping class="com.kabira.User"/>
+    </session-factory>
+</hibernate-configuration>
